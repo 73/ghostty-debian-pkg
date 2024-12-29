@@ -1,0 +1,8 @@
+Package: ghostty
+Section: misc
+Priority: extra
+Version:
+Maintainer: 73 <529346+73@users.noreply.github.com>
+Architecture: amd64
+Homepage: https://github.com/73/ghostty-debian-pkg
+Description: The new terminal emulator everyone is talking about

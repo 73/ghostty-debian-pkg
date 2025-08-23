@@ -11,10 +11,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: debian:bookworm
+    container: debian:trixie
     env:
       ZIG_VERSION: 0.13.0
-      GHOSTTY_VERSION: 1.0.0
+      GHOSTTY_VERSION: 1.1.3
     steps:
       - uses: actions/checkout@v4
 
